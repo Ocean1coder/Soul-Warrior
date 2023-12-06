@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebd032c761e203342a2b040493165bbe, type: 3}
+  m_Name: Kill the Dino
+  m_EditorClassIdentifier: 
+  questName: Kill the Dino!
+  questDescription: "B\u1EA1n c\xF3 th\u1EC3 gi\u1EBFt 5 con kh\u1EE7ng long gi\xFAp
+    t\xF4i \u0111\u01B0\u1EE3c kh\xF4ng ?"
+  NPCTurnIs: {fileID: 11400000, guid: 80f84b88009eb9140bc908fa1ca184bd, type: 2}
+  CompletedQuestDialogue: {fileID: 11400000, guid: 0878a5e26bc3f02478ea2eded798ee0d, type: 2}
+  rewards:
+    itemRewards: []
+  objectives:
+  - requiredEnemy: {fileID: 11400000, guid: e20e77371c5e99b448e112911e7233bb, type: 2}
+    requiredAmount: 5
